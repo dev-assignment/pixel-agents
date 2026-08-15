@@ -1,0 +1,33 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "feat/agent-names",
+    "feat/idle-breaks",
+    "feat/needs-you",
+    "feat/thought-balloons",
+    "fix/stable-looks",
+    "main",
+    "origin",
+    "pr-assets"
+  ],
+  "parent": {
+    "feat/agent-names": "main",
+    "feat/idle-breaks": "main",
+    "feat/needs-you": "main",
+    "feat/thought-balloons": "main",
+    "fix/stable-looks": "main",
+    "main": null,
+    "origin": "main",
+    "pr-assets": "main"
+  },
+  "order": [
+    "main",
+    "feat/agent-names",
+    "feat/idle-breaks",
+    "feat/needs-you",
+    "feat/thought-balloons",
+    "fix/stable-looks",
+    "origin",
+    "pr-assets"
+  ]
+}

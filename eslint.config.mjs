@@ -2,6 +2,9 @@ import typescriptEslint from 'typescript-eslint';
 import eslintConfigPrettier from 'eslint-config-prettier';
 import simpleImportSort from 'eslint-plugin-simple-import-sort';
 import pixelAgentsPlugin from './eslint-rules/pixel-agents-rules.mjs';
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
 
 export default [
   {

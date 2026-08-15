@@ -28,7 +28,6 @@ allure-report/
 *.map
 
 # Environment files
-.env*
 !.env.example
 
 # Project-specific
@@ -50,3 +49,4 @@ agent-orchestrator.yaml
 .ao/
 .serena/
 tasks/
+config.bat
