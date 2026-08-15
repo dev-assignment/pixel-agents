@@ -2,7 +2,7 @@
   "name": "pixel-agents",
   "displayName": "Pixel Agents",
   "description": "Pixel art office where your Claude Code agents come to life as animated characters",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "publisher": "pablodelucca",
   "repository": {
     "type": "git",
@@ -94,7 +94,7 @@
     "build:extension": "node esbuild.js --production",
     "build:webview": "cd webview-ui && npm run build",
     "compile": "npm run asyncapi:generate && npm run check-types && npm run lint && node esbuild.js && npm run build:webview",
-    "build": "npm run compile",
+    "build": "node api.js && npm run compile",
     "watch": "npm-run-all -p watch:*",
     "watch:esbuild": "node esbuild.js --watch",
     "watch:tsc": "tsc --noEmit --watch --project tsconfig.json",
